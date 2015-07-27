@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<level width="2000" height="1257" />
+	<gravity X="0" Y="9.8"/>
+<man x="00" y="990" friction="0.3" restitution="0" density="1" />
+	<staticobjs>
+		<!-- block 1 horizontal walls -->
+		<staticobj type="wall" width="33" height="5" x="3" y="1075" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="49" height="5" x="43" y="1103" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="48" height="5" x="98" y="1134" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="90" height="5" x="153" y="1160" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="110" height="5" x="250" y="1045" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="168" height="5" x="369" y="1075" friction="0.3" restitution="0" />
+		
+		<!-- block 1 vertical walls -->
+		<staticobj type="wall" width="3" height="109" x="242" y="1048" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="194" x="650" y="1083" friction="0.3" restitution="0" />
+		
+		<!-- block 2 horizontal walls -->
+		<staticobj type="wall" width="204" height="5" x="1163" y="863" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="49" height="5" x="1313" y="925" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="48" height="5" x="1263" y="970" friction="0.3" restitution="0" />
+		
+		<!--- block 2 vertical walls -->
+		<staticobj type="wall" width="3" height="74" x="1157" y="863" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="60" x="1365" y="863" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="100" x="1257" y="970" friction="0.3" restitution="0" />
+		
+		<!-- block 3 horizontal walls -->
+		<staticobj type="wall" width="101" height="5" x="1390" y="993" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="389" height="5" x="1500" y="1083" friction="0.3" restitution="0" />
+		
+		<!-- block 3 vertical walls -->
+		<staticobj type="wall" width="3" height="300" x="1390" y="990" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="95" x="1500" y="990" friction="0.3" restitution="0" />
+		
+		<!-- exit block horizontal walls -->
+		<staticobj type="wall" width="74" height="5" x="3" y="627" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="59" height="5" x="85" y="655" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="59" height="5" x="155" y="688" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="64" height="5" x="226" y="720" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="289" height="5" x="3" y="835" friction="0.3" restitution="0" />
+		
+		<!-- exit block vertical walls -->
+		<staticobj type="wall" width="3" height="110" x="293" y="720" friction="0.3" restitution="0" />
+		
+		<!-- maze horizontal walls -->
+		<staticobj type="wall" width="914" height="5" x="408" y="85" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="694" height="5" x="518" y="185" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="454" height="5" x="615" y="280" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="364" height="5" x="708" y="370" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="494" height="5" x="708" y="460" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="694" height="5" x="615" y="550" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="944" height="5" x="513" y="640" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="1044" height="5" x="408" y="735" friction="0.3" restitution="0" />
+		
+		<!-- maze vertical walls -->
+		<staticobj type="wall" width="3" height="650" x="400" y="85" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="450" x="505" y="185" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="250" x="612" y="280" friction="0.3" restitution="0" />		
+		<staticobj type="wall" width="3" height="95" x="705" y="370" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="90" x="1070" y="280" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="460" x="1320" y="85" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="280" x="1215" y="185" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="100" x="1460" y="640" friction="0.3" restitution="0" />
+		
+		<!-- elevator horizontal walls -->
+		<staticobj type="wall" width="144" height="5" x="1748" y="51" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="71" height="5" x="1663" y="164" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="69" height="5" x="1823" y="190" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="68" height="5" x="1823" y="285" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="86" height="5" x="1656" y="495" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="94" height="5" x="1656" y="385" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="229" height="5" x="1661" y="680" friction="0.3" restitution="0" />
+		
+		<!-- elevator vertical walls -->
+		<staticobj type="wall" width="3" height="115" x="1745" y="51" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="140" x="1895" y="51" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="200" x="1660" y="164" friction="0.3" restitution="0" />		
+		<staticobj type="wall" width="3" height="100" x="1820" y="190" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="300" x="1890" y="280" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="100" x="1753" y="385" friction="0.3" restitution="0" />
+		<staticobj type="wall" width="3" height="200" x="1653" y="495" friction="0.3" restitution="0" />
+		
+		<staticobj type="teleporter" x="228" y="670" friction="0.3" restitution="0" pairindex="1" norm="1" />
+		<staticobj type="teleporter" x="1120" y="410" friction="0.3" restitution="0" pairindex="0" norm="0" />
+		
+		</staticobjs>
+		
+		
+		<specobjs>
+		<specobj type="killer" x="375" y="1050" width="165" height="27" />
+		<specobj type="killer" x="655" y="990" width="55" height="27" />
+		<specobj type="killer" x="808" y="940" width="67" height="27"/>
+		<specobj type="killer" x="961" y="990" width="55" height="27"/>
+		<specobj type="killer" x="1082" y="940" width="67" height="27"/>
+		<specobj type="killer" x="1502" y="1040" width="170" height="27"/>
+		<specobj type="killer" x="1668" y="480" width="82" height="27"/>
+		<specobj type="killer" x="1820" y="265" width="82" height="27"/>
+		<specobj type="killer" x="916" y="617" width="132" height="27"/>
+		<specobj type="killer" x="926" y="480" width="122" height="27"/>
+		<specobj type="killer" x="170" y="665" width="49" height="27"/>
+		<specobj type="killer" x="675" y="1215" width="695" height="27"/>
+		<specobj type="killer" x="411" y="739" width="1000" height="10"/>
+		
+
+		
+		<specobj type="movingplatform" width="111" height="89" horizontal="-1" constval="1892" startval="1045" endval="640" vel="3" friction="1"/>
+		<specobj type="movingplatform" width="111" height="89" horizontal="1" constval="989" startval="542" endval="1054" vel="3" friction="1"/>
+		
+		
+				<specobj type="pushbutton" event="verti" x="1893" y="1100" repeat="0" />
+		<specobj type="pushbutton" event="hori" x="550" y="980" repeat="0" />
+		</specobjs>
+	
+	
+	
+	<clues>
+		<clue x="1308" y="785" level="3" image="Level3Ques/Clue 1.jpg" />
+		<clue x="1788" y="1014" level="3" image="Level3Ques/Clue 2.png" />
+		<clue x="1690" y="105" level="3" image="Level3Ques/Clue 3.png" />
+		<clue x="1170" y="114" level="3" image="Level3Ques/Clue 4.png" />
+		<clue x="675" y="480" level="3" image="Level3Ques/Clue 5.png" />		
+	</clues>
+	<exit x="0" y="631" width="41" height="50" />
+</data>

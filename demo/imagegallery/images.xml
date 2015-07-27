@@ -1,0 +1,68 @@
+<data>
+<thumbnails>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb1.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb2.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb3.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb4.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb5.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb6.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb7.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb8.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb9.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb10.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb11.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb12.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb13.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb14.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb15.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb16.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb17.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb18.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb19.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb20.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb21.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb22.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb23.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb24.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb25.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb26.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb27.jpg"/>
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb28.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb29.jpg"/>	
+		<thumb type="thumbs" wd="200" ht="113" loc="thumbnails/thumb30.jpg"/>	
+</thumbnails>
+
+<image>
+	<img wd="960" ht="540" loc="images/image1.jpg"/> 
+	<img wd="960" ht="540" loc="images/image2.jpg"/> 
+	<img wd="960" ht="540" loc="images/image3.jpg"/> 
+	<img wd="960" ht="540" loc="images/image4.jpg"/> 
+	<img wd="960" ht="540" loc="images/image5.jpg"/> 
+	<img wd="960" ht="540" loc="images/image6.jpg"/> 
+	<img wd="960" ht="540" loc="images/image7.jpg"/> 
+	<img wd="960" ht="540" loc="images/image8.jpg"/> 
+	<img wd="960" ht="540" loc="images/image9.jpg"/> 
+	<img wd="960" ht="540" loc="images/image10.jpg"/> 
+	<img wd="960" ht="540" loc="images/image11.jpg"/> 
+	<img wd="960" ht="540" loc="images/image12.jpg"/> 
+	<img wd="960" ht="540" loc="images/image13.jpg"/> 
+	<img wd="960" ht="540" loc="images/image14.jpg"/> 
+	<img wd="960" ht="540" loc="images/image15.jpg"/> 
+	<img wd="960" ht="540" loc="images/image16.jpg"/> 
+	<img wd="960" ht="540" loc="images/image17.jpg"/> 
+	<img wd="960" ht="540" loc="images/image18.jpg"/> 
+	<img wd="960" ht="540" loc="images/image19.jpg"/> 
+	<img wd="960" ht="540" loc="images/image20.jpg"/> 
+	<img wd="960" ht="540" loc="images/image21.jpg"/> 
+	<img wd="960" ht="540" loc="images/image22.jpg"/> 
+	<img wd="960" ht="540" loc="images/image23.jpg"/> 
+	<img wd="960" ht="540" loc="images/image24.jpg"/> 
+	<img wd="960" ht="540" loc="images/image25.jpg"/> 
+	<img wd="960" ht="540" loc="images/image26.jpg"/> 
+	<img wd="960" ht="540" loc="images/image27.jpg"/> 
+	<img wd="960" ht="540" loc="images/image28.jpg"/> 
+	<img wd="960" ht="540" loc="images/image29.jpg"/> 
+	<img wd="960" ht="540" loc="images/image30.jpg"/> 
+</image>
+
+</data>

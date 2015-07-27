@@ -1,0 +1,9 @@
+# Provide Specific Index Page (Set the default handler)
+DirectoryIndex index.html
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^.*$ ./redirect.php
+#RewriteRule ^([^/]+)/([^/]+)$ redirect.php?p=$1&sp=$2 [L]

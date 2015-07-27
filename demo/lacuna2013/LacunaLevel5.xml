@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<level width="11" height="6" />
+<gravity x="0" y="0" />
+<man x="6" y="3" room="26" />
+
+<roomwalls>
+	<wall type="bottom-left" x="87" y="82" width="78" height="10" />
+	<wall type="bottom-left" x="270" y="82" width="190" height="10" />
+	<wall type="bottom-left" x="547" y="82" width="210" height="10" />
+	<wall type="bottom-left" x="858" y="82" width="52" height="10" />
+	
+	<wall type="top-left" x="87" y="525" width="375" height="10" />
+	<wall type="top-left" x="545" y="525" width="383" height="10" />	
+	<wall type="top-left" x="912" y="82" width="10" height="160" />
+	<wall type="top-left" x="912" y="330" width="10" height="200" />
+
+	<wall type="top-right" x="87" y="82" width="10" height="165" />
+	<wall type="top-right" x="87" y="329" width="10" height="200" />
+	
+</roomwalls>
+
+<doors>
+	<door type="left" x="77" y="250" width="5" height="66" />
+	<door type="right" x="915" y="265" width="5" height="66" />
+	<door type="up" x="465" y="72" width="68" height="5" />
+	<door type="down" x="480" y="530" width="68" height="5" />	
+	<door type="stairdown" x="155" y="72" width="105" height="5" />
+	<door type="stairup" x="745" y="72" width="105" height="5" />	
+</doors>
+
+
+
+<colony>
+	<buildingplan number="1" />
+	<building>
+		<floorplan numrooms="9" numfloors="3" />
+		<floor>
+			<room>
+				<doorpoiner left="-1" right="1" up="-1" down="3" stairup="9" stairdown="-1"/>
+				<other type="key" x="8" y="0" />
+				<other type="laser" x1="2" y1="6" x2="2" y2="0" del="4" off="1" />
+				<other type="laser" x1="7" y1="6" x2="7" y2="0" del="2" off="2" />
+			</room>
+			
+			<room>
+				<doorpoiner left="0" right="2" up="-1" down="4" stairup="10" stairdown="-1"/>
+				<other type="battery" x="6" y="3"/>
+				<other type="laser" x1="2" y1="6" x2="2" y2="0" del="4" off="1" />				
+				<other type="laser" x1="7" y1="6" x2="7" y2="0" del="2" off="2" />	
+			</room>
+			<room>
+				<doorpoiner left="1" right="-1" up="-1" down="5" stairup="11" stairdown="-1"/>
+				<other type="clue" num="1" x="0.5" y="5.5" />
+				<other type="lock" x="0" y="5" />
+				<other type="laser" x1="10" y1="6" x2="7" y2="0" del="2" off="2" />	
+				<other type="laser" x1="0" y1="2" x2="10" y2="2" del="3" off="1"/>
+			
+			</room>
+			
+			<room>
+				<doorpoiner left="-1" right="4" up="0" down="6" stairup="12" stairdown="-1"/>
+				<other type="laser" x1="0" y1="6" x2="7" y2="0" del="4" off="2" /> 
+				<other type="calender" x="" y="" />
+			
+			</room>
+			<room>
+				<doorpoiner left="3" right="5" up="1" down="7" stairup="13" stairdown="-1"/>
+				<other type="laser" x1="0" y1="2" x2="7" y2="2" del="4" off="2" /> 
+			
+			</room>
+			
+			<room>
+				<doorpoiner left="4" right="-1" up="2" down="8" stairup="14" stairdown="-1"/>
+				<other type="coin" x="8" y="5" />
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+				<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+	
+			</room>
+			<room>
+				<doorpoiner left="-1" right="7" up="3" down="-1" stairup="15" stairdown="-1"/>
+				<other type="coin" x="2" y="3" />
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1"/>
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				
+			
+			</room>
+			
+			<room>
+				<doorpoiner left="6" right="8" up="4" down="-1" stairup="16" stairdown="-1"/>
+				
+				<other type="coin" x="6" y="3" />
+				<other type="clue" num="5" x="1" y="5" />
+				<other type="dark" x="" y="" />
+				
+			</room>
+			
+			<room>
+				<doorpoiner left="7" right="-1" up="5" down="-1" stairup="17" stairdown="-1"/>
+				
+				
+			</room>
+		</floor>
+
+		<floor>
+			<room>
+				<doorpoiner left="-1" right="10" up="-1" down="12" stairup="18" stairdown="0"/>
+				<other type="laser" x1="2" y1="6" x2="2" y2="0" del="4" off="1" />
+				<other type="laser" x1="7" y1="6" x2="7" y2="0" del="2" off="2" />
+				<other type="dark" x="" y="" />
+				
+				
+			</room>
+			
+			<room>
+				<doorpoiner left="9" right="11" up="-1" down="13" stairup="19" stairdown="1"/>
+			<other type="laser" x1="0" y1="6" x2="7" y2="0" del="4" off="2" /> 
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+			</room>
+			<room>
+				<doorpoiner left="10" right="-1" up="-1" down="14" stairup="20" stairdown="2"/>
+			
+			
+			</room>
+			
+			<room>
+				<doorpoiner left="-1" right="13" up="9" down="15" stairup="21" stairdown="5"/>
+				<other type="clue" num="4" x="6" y="3" />
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+				<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				
+			</room>
+			<room>
+				<doorpoiner left="12" right="14" up="10" down="16" stairup="22" stairdown="4"/>
+				<other type="dark" x="" y="" />
+				
+				
+			</room>
+			
+			<room>
+				<doorpoiner left="13" right="-1" up="11" down="17" stairup="23" stairdown="5"/>
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+				<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				
+			</room>
+			
+			<room>
+				<doorpoiner left="-1" right="16" up="12" down="-1" stairup="24" stairdown="8"/>
+				<other type="clue"  num="3" x="6.5" y="0"/>
+				<other type="coinbox" x="6.5" y="0" />
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+			</room>
+			
+			<room>
+				<doorpoiner left="15" right="17" up="13" down="-1" stairup="25" stairdown="7"/>
+			<other type="laser" x1="0" y1="6" x2="7" y2="0" del="4" off="2" /> 
+				
+			</room>
+			
+			<room>
+				<doorpoiner left="16" right="-1" up="14" down="-1" stairup="26" stairdown="8"/>
+		
+			
+			</room>
+
+		</floor>
+		
+		<floor>
+			<room>
+				<doorpoiner left="-1" right="19" up="-1" down="21" stairup="-1" stairdown="9"/>
+				<other type="clue" num="2" x="5" y="2.5" />
+				<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+			</room>
+			
+			<room>
+				<doorpoiner left="18" right="20" up="-1" down="22" stairup="-1" stairdown="10"/>
+				<other type="laser" x1="0" y1="6" x2="7" y2="0" del="4" off="2" /> 
+				
+			</room>
+			<room>
+				<doorpoiner left="19" right="-1" up="-1" down="23" stairup="-1" stairdown="11"/>
+				<other type="coin" x="8" y="5" />
+				
+			<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+			</room>
+			
+			
+			<room>
+				<doorpoiner left="-1" right="22" up="18" down="24" stairup="-1" stairdown="12"/>
+				<other type="battery" x="6" y="3"/>
+			<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+			<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+			</room>
+			
+			<room>
+				<doorpoiner left="21" right="23" up="19" down="25" stairup="-1" stairdown="13"/>
+				<other type="torch" x="3.5" y="0" />
+			
+			<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+			</room>
+			
+			<room>
+				<doorpoiner left="22" right="-1" up="20" down="26" stairup="-1" stairdown="14"/>
+				 <other type="laser" x1="0" y1="6" x2="7" y2="0" del="4" off="2" /> 
+<other type="laser" x1="2" y1="0" x2="10" y2="4" del="4" off="2" /> 				
+			</room>
+			<room>
+				<doorpoiner left="-1" right="25" up="21" down="-1" stairup="-1" stairdown="15"/>
+				
+				<other type="coin" x="8" y="5" />
+			
+			</room>
+			
+			<room>
+				<doorpoiner left="24" right="26" up="22" down="-1" stairup="-1" stairdown="16"/>
+				<other type="laser" x1="1" y1="5" x2="1" y2="2"/>
+					<other type="laser" x1="7" y1="0" x2="7" y2="5" del="4" off="2" /> 
+				<other type="laser" x1="2" y1="0" x2="2" y2="4" del="2" off="1"/>
+				<other type="laser" x1="0" y1="4" x2="10" y2="4" del="4" off="1" /> 
+			</room>
+			
+			<room>
+				<doorpoiner left="25" right="-1" up="23" down="-1" stairup="-1" stairdown="17"/>
+				<other type="exit" x="11" y="2.5" />
+			
+
+			</room>
+		</floor>
+		
+	</building>
+</colony>
+
+</data>
